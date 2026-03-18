@@ -1,11 +1,11 @@
 ## IT SERVICE TICKET CLASSIFICATION USING MACHINE LEARNING
 
-## Objective
+### Objective
 Develop a Machine Learning model capable of classifying support tickets from a banking entity to improve the management, prioritization and response time of internal requests.
 
 ---
 
-## Dataset
+### Dataset
 - **Rows:** 660
 - **Columns:** 51
 - **Type:** Categorical and numeric variables
@@ -15,12 +15,12 @@ Due to confidentiality restrictions, the dataset is not publicly available. Howe
 
 ---
 
-## Methodology
+### Methodology
 The project follows the CRISP-DM framework. Data preprocessing includes handling missing values, removing duplicates, coding categorical variables, and selecting the most relevant features. Several classification models were trained and compared, including Random Forest, XGBoost, LightGBM, and CatBoost. Model performance was assessed using accuracy, completeness, and F1 score. The best-performing model was further optimized through hyperparameter tuning.
 
 ---
 
-## Models evaluated
+### Models evaluated
 - Random Forest  
 - XGBoost  
 - CatBoost
@@ -28,7 +28,7 @@ The project follows the CRISP-DM framework. Data preprocessing includes handling
 
 ---
 
-## Best model
+### Best model
 - **Final Model:** XGBoost
 - **Final Accuracy:** ~0.98
 - **Improvement over the base model:** ≈ 2%
@@ -36,7 +36,7 @@ The project follows the CRISP-DM framework. Data preprocessing includes handling
 
 ---
 
-## Results and conclusions
+### Results and conclusions
 - XGBoost consistently outperformed other models in cross-validation.
 - Hyperparameter optimization increased the overall accuracy of the model.
 - Key variables influencing ticket classification were identified.
@@ -44,7 +44,7 @@ The project follows the CRISP-DM framework. Data preprocessing includes handling
 
 ---
 
-## Technologies
+### Technologies
 - Python  
 - Pandas  
 - NumPy  
