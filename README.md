@@ -1,4 +1,4 @@
-# IT SERVICE TICKET CLASSIFICATION USING MACHINE LEARNING
+## IT SERVICE TICKET CLASSIFICATION USING MACHINE LEARNING
 
 ## Objective
 Develop a Machine Learning model capable of classifying support tickets from a banking entity to improve the management, prioritization and response time of internal requests.
